@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(red, yellow);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+button{ 
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#increment-btn{
+    background-color: darkred;
+}
+#decrement-btn{
+    background-color: darkgreen;
+}
+#save-btn{
+    background-color: darkred;
+}
+#delete-btn{
+    background-color: darkgreen;
+}
+#save-el{
+    padding: 10px;
+    background-color: darkgreen;
+    border-radius: 5px;
+    width: 600px;
+    margin: 20px auto;
+}
+.calculator button{
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+span{
+    text-decoration: underline;
+    color: black;
+
+}
